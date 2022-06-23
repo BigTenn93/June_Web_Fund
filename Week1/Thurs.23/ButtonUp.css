@@ -1,0 +1,9 @@
+h1{
+    border: 10px;
+    border-radius: 5px;
+}
+p{
+    border: 1px solid #000000;
+    color: blueviolet;
+    border-radius: 20px;
+}
