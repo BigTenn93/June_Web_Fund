@@ -1,59 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="ProfilePage.css">
+    <link rel="stylesheet" href="ProfilePage.css">
 </head>
-
 <body>
-
-    <div class="navbar">
-        <div class="navLeft">
-            <h4>Profile</h4>
-            <h7>Home</h7>
-            <h7>My Profile</h7>
-            <h7>Find Ccnnections</h7>
-        </div>
-        <div class="navRight">
-            <button>Sign Out</button>
+    <div id="navbar">
+        <ul id="navLeft">
+                <li><h1>Profile</h1></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button id="signoutbtn">Sign Out</button>
+    </div>
+    <div id="main">
+        <div class="col-left">
+            <div class="profilecard">
+                <div id="profileheader">
+                    <img id="mainpic" src="./images/jane-m.jpg" alt="jane">
+                </div>
+                <div id="profilebody">
+                <h2>Jane Doe</h2>
+                <img src="./icons/map-marker.png" alt="">
+                <span>Seattle</span>
+                <p>Developer | Engineer | Problem Solver</p>
+                <p id="lastp">Master of shadows and the Internet!</p>
+                <img src="./icons/gear.png" alt="">
+                <a href="#">edit profile</a>
+                </div>
+            </div>
+            <div class="education">
+                <div class="cardheader">
+                    <p>Education</p>
+                </div>
+                <div id="educbody">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p id="dates">Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="mainContent">
-
-        <div class="usertCard">
-            <div class="userCardBanner"></div>
+        <div class="col-right">
+            <div class="requests">
+                <div class="cardheader">
+                    <span class="count">2</span>
+                    <span>Connection Requests</span>
+            </div>
+            <div class="cardbody">
+                <div class="person">
+                    <img class="thumbnail" src="./images/todd-s.jpg" alt="">
+                    <span>Todd E</span>
+                    <img class="acceptreject" src="./icons/accept-circle.png" alt="">
+                    <img class="acceptreject" src="./icons/close-circle.png" alt="">
+                </div>
+                <div class="person">
+                        <img class="thumbnail" src="./images/phil-s.jpg" alt="">
+                        <span>Phil K</span>
+                        <img class="acceptreject" src="./icons/accept-circle.png" alt="">
+                        <img class="acceptreject" src="./icons/close-circle.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="userCardContent">
-            <h3>Jane Doe</h3>
-            <p>Seattle</p>
-            <p>Developer | Engineer | Problem Solver</p>
-            <p>Master of shadows and the Internet!</p>
-            <a href="">Edit Profile</a>
-        </div>
-
-        <div class="requestBox">
-            <div class="reqBoxBanner"></div>
-        </div>
-        <div class="reqBoxContent"></div>
-
-        <div class="educationBox">
-            <div class="educBoxBanner"></div>
-        </div>
-        <div class="educBoxContent"></div>
-
-        <div class="connectionsBox">
-            <div class="connectBoxBanner"></div>
-        </div>
-        <div class="connectBoxContent"></div>
-
-    </div>
-
-
+            <div class="requests">
+                <div class="cardheader">
+                    <span class="count">500+</span>
+                    <span>Your Connections</span>
+                </div>
+            </div>
+            <div class="cardbody">
+                <div class="personconnect">
+                    <img class="thumbnail" src="./images/adrien-s.jpg" alt="">
+                    <span>Adrien D</span>
+                </div>
+                <div class="personconnect">
+                        <img class="thumbnail" src="./images/anne-s.jpg" alt="">
+                        <span>Anne J</span>
+                </div>
+                <div>
+                    <div class="personconnect">
+                        <img class="thumbnail" src="./images/alayne-s.jpg" alt="">
+                        <span>Alayne T</span>
+                    </div>
+                    <div>
+                        <div class="personconnect">
+                            <img class="thumbnail" src="./images/arry-s.jpg" alt="">
+                            <span>Arry Y</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="viewmore">
+                <a href="#">View More</a>
+            </div>
 </body>
-
 </html>
