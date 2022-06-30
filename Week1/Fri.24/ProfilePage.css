@@ -53,9 +53,9 @@ ul li:first-child{
 /* Left/Right columns */
 
 .col-left, .col-right{
-    /*outline: 3px solid hotpink;
+    /*outline: 3px solid hotpink;*/
     height: 900px;
-    width: 400px;*/
+    width: 400px;
 }
 
 .col-left{
