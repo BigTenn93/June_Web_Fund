@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    outline: 3px solid rgb(193, 193, 193);
+    /*height: 100px;*/
+    background-color: rgb(193, 193, 193);
+    margin: 0px 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+#searchbar{
+    width: 500px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+#loginOut{
+    background-color: rgb(43, 119, 228);
+    color: white;
+    height: 30px;
+    width: 70px
+}
+
+/* Main Body */
+
+#mainBody{
+    /*outline: 3px solid red;*/
+    margin: 0px 30px;
+    height: 800px;
+    display: flex;
+    gap: 20px;
+}
+
+#colLeft, #colRight{
+    width: 200px;
+    /* outline: 3px solid purple; */
+
+}
+
+#colLeft{
+    flex: 2;
+}
+
+#colRight{
+    flex: 1;
+}
+
+/* Main Body content */
+
+/* Column Left */
+
+/* Top Ninja */
+
+.topNinja{
+    outline: 3px solid black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    justify-content: space-between;
+}
+
+.tnLeft, .tnRight{
+   /* outline: 3px solid yellow; */
+}
+
+.tnLeft{
+    text-align: center;
+    justify-content: space-between;
+    line-height: 65px;
+
+}
+
+.tnLeft > h1{
+    font-size: 3rem;
+}
+
+.tnLeft > button{
+    background-color: rgb(254, 217, 102);
+    border: 1px solid black;
+    padding: 5px 15px;
+    box-shadow: 3px 3px black;
+}
+
+.tnRight{
+    font-size: 2rem;
+
+}
+
+/* Bottom Ninja */
+
+.bottomNinja{
+    outline: 3px solid black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-between;
+}
+
+.bnLeft, .bnRight{
+    /* outline: 3px solid green; */
+}
+
+.bnLeft{
+    text-align: center;
+    justify-content: space-between;
+    line-height: 65px;
+}
+
+.bnLeft > h1{
+    font-size: 3rem;
+}
+
+.bnLeft > button{
+    background-color: rgb(254, 217, 102);
+    border: 1px solid black;
+    padding: 5px 15px;
+    box-shadow: 3px 3px black;
+}
+
+.bnRight{
+    font-size: 2rem;
+    padding-left: 80px;
+}
+
+/* Column Right */
+
+#definition{
+    outline: 3px solid black;
+    height: 250px;
+    padding: 15px;
+    font-size: 2rem;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+#definition > button{
+    background-color: rgb(146, 196, 125);
+    border: 1px solid black;
+    padding: 10px 50px;
+    box-shadow: 3px 3px black;
+    margin-top: 100px;
+    margin-left: 80px;
+}
