@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+#header{
+    outline: 3px solid black;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+/* Main Body */
+
+#mainBody{
+    /*outline: 3px solid purple;*/
+    height: 600px;
+    display: flex;
+    gap: 30px;
+}
+
+.colLeft{
+    /* outline: 3px solid yellow; */
+    flex: 1;
+}
+
+.colRight{
+    /* outline: 3px solid blue; */
+    flex: 2;
+}
+
+/* Main Body Content */
+
+
+/* Left Column */
+
+/* Avatar */
+
+.avatar{
+    border: 3px solid black;
+    height: 400px;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 60px;
+    font-size: 1.3rem;
+}
+
+#avatarPic{
+    height: 140px;
+    border-radius: 50%;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+/* Right Column */
+
+/* Feed */
+
+.feed{
+    margin-right: 60px;
+}
+
+.top{
+    border: 3px solid black;
+    height: 190px;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 10px;
+}
+
+.topHalf1 > button{
+    background-color: rgb(255, 217, 102);
+    box-shadow: 3px 3px black;
+    padding: 5px 15px;
+}
+
+.topHalf1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btmHalf1{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+
+
+
+.middle{
+    border: 3px solid black;
+    height: 190px;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 10px;
+}
+
+.topHalf2 > button{
+    background-color: rgb(255, 217, 102);
+    box-shadow: 3px 3px black;
+    padding: 5px 15px;
+}
+
+.topHalf2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btmHalf2{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+
+
+
+.bottom{
+    border: 3px solid black;
+    height: 190px;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 10px;
+}
+
+.topHalf3 > button{
+    background-color: rgb(255, 217, 102);
+    box-shadow: 3px 3px black;
+    padding: 5px 15px;
+}
+
+.topHalf3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btmHalf3{
+    font-size: 1.5rem;
+}
+
+h6{
+    font-size: 1.5rem;
+}

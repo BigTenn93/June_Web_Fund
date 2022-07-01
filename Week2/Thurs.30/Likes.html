@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Likes.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Network</h1>
+    </div>
+    <div>
+        <h2>Your Feed</h2>
+    </div>
+    <div id="mainBody">
+        <div class="colLeft">
+            <div class="avatar">
+                <img id="avatarPic" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Pic">
+                <p><a href="#">Add an avatar</a></p>
+                <h3>James Doe</h3>
+            </div>
+        </div>
+        <div class="colRight">
+            <div class="feed">
+                <div class="top">
+                    <div class="topHalf1">
+                        <h4>Neil M</h4>
+                        <p>Like(s): <a id="likesTop"> 0</a></p>
+                        <button type="button" onClick="topButton()">Likes</button>
+                    </div>
+                    <div class="btmHalf1">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#"> link</a></p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="topHalf2">
+                        <h5>Nichole K</h5>
+                        <p>Like(s): <a id="likesMid"> 0</a></p>
+                        <button type="button" onClick="midButton()">Likes</button>
+                    </div>
+                    <div class="btmHalf2">
+                        <p> Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="topHalf3">
+                        <h6>Jim R</h6>
+                        <p>Like(s): <a id="likesBtm"> 0</a></p>
+                        <button type="button" onClick="btmButton()">Likes</button>
+                    </div>
+                    <div class="btmHalf3">
+                        <p>I can't stop listening to the <a href="#"> new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="Likes.js"></script>
+</body>
+</html>
